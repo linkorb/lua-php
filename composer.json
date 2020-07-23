@@ -1,0 +1,23 @@
+{
+    "name": "linkorb/lua",
+    "description": "Lua PHP: Library for extending your application with lua scripts",
+    "homepage": "http://www.github.com/linkorb/lua-php",
+    "keywords": ["php", "lua", "scripting", "sandbox", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "LinkORB Engineering",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkORB\\Lua\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
