@@ -41,3 +41,9 @@ end
 function getEnvironment()
   return sandbox_env
 end
+sandbox_env['assert'] = _ENV['assert']
+sandbox_env['error'] = _ENV['error']
+sandbox_env['ipairs'] = _ENV['ipairs']
+sandbox_env['pairs'] = _ENV['pairs']
+sandbox_env['pcall'] = _ENV['pcall']
+
